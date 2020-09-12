@@ -116,5 +116,23 @@ def integrate(func, x0, x1, tol):
     integrate with error <= tol
     return: result, error estimation
     """
-
-
+    steps = []
+    h = abs(x1-x0)
+    err2 = tol + 1
+    L = 2
+    n_nodes = 3
+    while err2 > tol:
+        steps = []
+        for i in range(3):
+            n_intervals = math.ceil((x1-x0) / (h / L**i))
+            steps.append(composite_quad(func, x0, x1, n_intervals, n_nodes))
+        m = aitken(steps[0], steps[1], steps[2], L)
+        err, err2 = runge(steps[1], steps[2], m, L)
+        h = (h/L**i) * math.pow(tol/abs(err2), 1/m)
+        if err2 < tol:
+            h *= 0.95
+            steps = []
+            for i in range(3):
+                n_intervals = math.ceil((x1 - x0) / (h / L ** i))
+                steps.append(composite_quad(func, x0, x1, n_intervals, n_nodes))
+    return steps[2], err2
