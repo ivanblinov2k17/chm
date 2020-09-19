@@ -110,7 +110,7 @@ def test_quad_gauss_degree():
     plt.show()
 
 
-@pytest.mark.parametrize('n_nodes', [2, 3, 5])
+@pytest.mark.parametrize('n_nodes', [2, 3,4, 5])
 def test_composite_quad(n_nodes):
     """
     test composite 2-, 3-, 5-node quads
@@ -175,7 +175,7 @@ def test_composite_quad_degree(v):
 
     L = 2
     n_intervals = [L ** q for q in range(2, 10)]
-    n_nodes = 3
+    n_nodes = 4
     Y = [composite_quad(f, x0, x1, n_intervals=n, n_nodes=n_nodes,
                         a=a, b=b, alpha=alpha, beta=beta) for n in n_intervals]
     accuracy = get_log_error(Y, exact * np.ones_like(Y))

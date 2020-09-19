@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e22a567f-e7f7-45d4-9854-e90beccc988d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/S3T1_integration/notebooks/convergence.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/S3T1_integration/notebooks/convergence.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/S3T1_integration/py/integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/S3T1_integration/py/integration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S3T1_integration/py/test_integration.py" beforeDir="false" afterPath="$PROJECT_DIR$/S3T1_integration/py/test_integration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S3T2_solve_ode/py/multistep_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/S3T2_solve_ode/py/multistep_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S3T2_solve_ode/py/one_step_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/S3T2_solve_ode/py/one_step_methods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/S3T2_solve_ode/py/solve_ode.py" beforeDir="false" afterPath="$PROJECT_DIR$/S3T2_solve_ode/py/solve_ode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +46,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_integration.py">
-    <configuration name="integration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_adap_step.py">
+    <configuration name="pytest for test_integration.test_composite_quad_degree" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="chm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/S3T1_integration/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/S3T1_integration/py/integration.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_integration.test_composite_quad_degree&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for test_integration.test_integrate" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -81,35 +79,35 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_integration.test_quad_degree" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_adap_step.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="chm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/S3T1_integration/py" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/S3T2_solve_ode/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_integration.test_quad_degree&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/S3T2_solve_ode/py/test_adap_step.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_compute_function.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_fix_step.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="chm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/S1T1_compute_function/py" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/S3T2_solve_ode/py" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/S1T1_compute_function/py/test_compute_function.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/S3T2_solve_ode/py/test_fix_step.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -131,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_integration.py" />
+        <item itemvalue="Python tests.pytest in test_adap_step.py" />
+        <item itemvalue="Python tests.pytest in test_fix_step.py" />
         <item itemvalue="Python tests.pytest for test_integration.test_integrate" />
-        <item itemvalue="Python.integration" />
-        <item itemvalue="Python tests.pytest for test_integration.test_quad_degree" />
-        <item itemvalue="Python tests.pytest in test_compute_function.py" />
+        <item itemvalue="Python tests.pytest for test_integration.test_composite_quad_degree" />
+        <item itemvalue="Python tests.pytest in test_integration.py" />
       </list>
     </recent_temporary>
   </component>
@@ -165,37 +163,41 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="387" key="GridCell.Tab.0.bottom" timestamp="1599922234507">
+    <state x="664" y="359" width="581" height="400" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600074970057">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state width="1899" height="387" key="GridCell.Tab.0.bottom/0.32.1920.1048@0.32.1920.1048" timestamp="1599922234507" />
-    <state width="1899" height="387" key="GridCell.Tab.0.center" timestamp="1599922234507">
+    <state x="664" y="359" width="581" height="400" key="#com.intellij.fileTypes.FileTypeChooser/0.32.1920.1048@0.32.1920.1048" timestamp="1600074970057" />
+    <state width="1899" height="195" key="GridCell.Tab.0.bottom" timestamp="1600496154810">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state width="1899" height="387" key="GridCell.Tab.0.center/0.32.1920.1048@0.32.1920.1048" timestamp="1599922234507" />
-    <state width="1899" height="387" key="GridCell.Tab.0.left" timestamp="1599922234506">
+    <state width="1899" height="195" key="GridCell.Tab.0.bottom/0.32.1920.1048@0.32.1920.1048" timestamp="1600496154810" />
+    <state width="1899" height="195" key="GridCell.Tab.0.center" timestamp="1600496154809">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state width="1899" height="387" key="GridCell.Tab.0.left/0.32.1920.1048@0.32.1920.1048" timestamp="1599922234506" />
-    <state width="1899" height="387" key="GridCell.Tab.0.right" timestamp="1599922234507">
+    <state width="1899" height="195" key="GridCell.Tab.0.center/0.32.1920.1048@0.32.1920.1048" timestamp="1600496154809" />
+    <state width="1899" height="195" key="GridCell.Tab.0.left" timestamp="1600496154809">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state width="1899" height="387" key="GridCell.Tab.0.right/0.32.1920.1048@0.32.1920.1048" timestamp="1599922234507" />
-    <state width="1899" height="340" key="GridCell.Tab.1.bottom" timestamp="1599922100390">
+    <state width="1899" height="195" key="GridCell.Tab.0.left/0.32.1920.1048@0.32.1920.1048" timestamp="1600496154809" />
+    <state width="1899" height="195" key="GridCell.Tab.0.right" timestamp="1600496154809">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state width="1899" height="340" key="GridCell.Tab.1.bottom/0.32.1920.1048@0.32.1920.1048" timestamp="1599922100390" />
-    <state width="1899" height="340" key="GridCell.Tab.1.center" timestamp="1599922100389">
+    <state width="1899" height="195" key="GridCell.Tab.0.right/0.32.1920.1048@0.32.1920.1048" timestamp="1600496154809" />
+    <state width="1899" height="340" key="GridCell.Tab.1.bottom" timestamp="1600008566041">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state width="1899" height="340" key="GridCell.Tab.1.center/0.32.1920.1048@0.32.1920.1048" timestamp="1599922100389" />
-    <state width="1899" height="340" key="GridCell.Tab.1.left" timestamp="1599922100389">
+    <state width="1899" height="340" key="GridCell.Tab.1.bottom/0.32.1920.1048@0.32.1920.1048" timestamp="1600008566041" />
+    <state width="1899" height="340" key="GridCell.Tab.1.center" timestamp="1600008566038">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state width="1899" height="340" key="GridCell.Tab.1.left/0.32.1920.1048@0.32.1920.1048" timestamp="1599922100389" />
-    <state width="1899" height="340" key="GridCell.Tab.1.right" timestamp="1599922100390">
+    <state width="1899" height="340" key="GridCell.Tab.1.center/0.32.1920.1048@0.32.1920.1048" timestamp="1600008566038" />
+    <state width="1899" height="340" key="GridCell.Tab.1.left" timestamp="1600008566036">
       <screen x="0" y="32" width="1920" height="1048" />
     </state>
-    <state width="1899" height="340" key="GridCell.Tab.1.right/0.32.1920.1048@0.32.1920.1048" timestamp="1599922100390" />
+    <state width="1899" height="340" key="GridCell.Tab.1.left/0.32.1920.1048@0.32.1920.1048" timestamp="1600008566036" />
+    <state width="1899" height="340" key="GridCell.Tab.1.right" timestamp="1600008566040">
+      <screen x="0" y="32" width="1920" height="1048" />
+    </state>
+    <state width="1899" height="340" key="GridCell.Tab.1.right/0.32.1920.1048@0.32.1920.1048" timestamp="1600008566040" />
   </component>
 </project>

@@ -19,4 +19,13 @@ def adams(func, y_start, T, coeffs, one_step_method: OneStepMethod):
     one_step_method: method for initial steps
     return list of t (same as T), list of y
     """
-    raise NotImplementedError
+    h = np.abs(T[1] - T[0])
+    y = [y_start]
+    rightside = [func(T[0], y_start)]
+    for i in range(1, len(T)):
+        if i < len(coeffs):
+            y.append(one_step_method.step(func, T[i - 1], y[i - 1], h))
+        else:
+            y.append(y[i - 1] + coeffs @ (h * np.array(rightside[-len(coeffs):])))
+        rightside.append(func(T[i], y[i]))
+    return T, y
